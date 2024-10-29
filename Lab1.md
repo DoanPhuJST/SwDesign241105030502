@@ -72,15 +72,15 @@ Mã sinh viên: 4451050696
     ![Diagram](https://www.planttext.com/api/plantuml/png/UhzxlqDnIM9HIMbk3XTNSNPcda9HVd4g5rTgNabcIQM2Qsv1Vav-PMfgK6fnGNuUK0Og4PAPcvgSM9G25-TAoY_DIqaiGaWvv-UL5ENdvAGMAN0bGzXmkU3KehBCPA0kD045NLqi-l6fWZi0YnfCrtDnEQJcfG0z2m000F__0m00)
 
 
- - Giải thích
+  - Giải thích
 
-  - TimecardController: Điều khiển việc nộp thông tin thời gian làm việc, sử dụng TimecardService để xử lý logic nghiệp vụ.
+    - TimecardController: Điều khiển việc nộp thông tin thời gian làm việc, sử dụng TimecardService để xử lý logic nghiệp vụ.
 
-  - TimecardService: Xử lý nghiệp vụ liên quan đến việc nộp thông tin thời gian làm việc, truy cập EmployeeRepository để lấy thông tin nhân viên và TimecardRepository để lưu thông tin thời gian làm việc.
+    - TimecardService: Xử lý nghiệp vụ liên quan đến việc nộp thông tin thời gian làm việc, truy cập EmployeeRepository để lấy thông tin nhân viên và TimecardRepository để lưu thông tin thời gian làm việc.
 
-  - EmployeeRepository: Cung cấp các phương thức để truy cập thông tin nhân viên từ cơ sở dữ liệu.
+    - EmployeeRepository: Cung cấp các phương thức để truy cập thông tin nhân viên từ cơ sở dữ liệu.
 
-  - TimecardRepository: Cung cấp các phương thức để lưu thông tin thời gian làm việc vào cơ sở dữ liệu.
+    - TimecardRepository: Cung cấp các phương thức để lưu thông tin thời gian làm việc vào cơ sở dữ liệu.
   
     
  **5. Hợp nhất kết quả phân tích**
