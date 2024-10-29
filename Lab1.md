@@ -16,12 +16,14 @@ Mã sinh viên: 4451050696
     - Kiểm tra từng lớp và đối tượng riêng biệt: Bạn có thể kiểm tra tất cả các lớp và đối tượng riêng lẻ vì chúng đều độc lập với nhau.
     - Hành động của bộ điều khiển có thể nhóm logic: Các hành động của bộ điều khiển có thể được nhóm lại một cách logic bằng cách sử dụng các mẫu thiết kế MVC.
   -*Ý nghĩa từng thành phần: Gồm 3 thành phần chính:*
-    - k
-    - k
-    - n
+    - Model(M): là nơi lưu trữ dữ liệu và logic. Ví dụ, khi Controller truy xuất thông tin khách hàng từ cơ sở dữ liệu, dữ liệu được chuyển đổi giữa các thành phần controller hoặc giữa các yếu tố logic nghiệp vụ. 
+     Nó thao tác dữ liệu và gửi lại cơ sở dữ liệu, hoặc được sử dụng để hiển thị thông tin tương tự.
+    - View(V): đại diện cho cách dữ liệu được trình bày trong ứng dụng (UI). Các view được tạo ra dựa trên dữ liệu thu thập từ model. Bằng cách yêu cầu thông tin từ model, sau đó sẽ trả kết quả tới người dùng. 
+     Ngoài việc hiển thị dữ liệu từ các biểu đồ, sơ đồ và bảng, view còn hiển thị dữ liệu từ các nguồn khác.
+    - Controller(T): là thành phần xử lý tương tác của người dùng. Dữ liệu đầu vào của người dùng được controller phân tích và xử lí, khi người dùng thao tác bất kì với hệ thống controller sẽ gửi thông tin đến 
+     model để xử lí và sau đó trả về kết quả view
   -*Biểu đồ package mô tả kiển trúc:*
 ![Diagram](https://www.planttext.com/api/plantuml/png/X5LBJiCm4Dtd55PNxQ8R3e3Q4XP8HLGDi9_Qqs9mx6hiW2BKax7WI5m19v0sFoTUU95vzdj-yydFr_V2EY2NfIew0d-30xB91d8oIh4ajmxJ2VkCc5_bTi4GMjGEd3IQhI57gd35uWgiPPFRzAXCZiZkj4FQ0ySwg5oFCaKE96ppyoOZ_W8MsGC9f7QGS8-4ckCbS6fpBqKgjRIEm1aQ4B0Kef8vdJL3CIfq68e-7GLSedTwRsg8Fpcdg6dQAhDIerUtDWV9WxPv_rFlBKkGtcMFv1jGF5EUF045bBU5RSXuP-p_BHrHDQBA_21JakrIwIfOc-WPb2myw8btg9e93H9kaHiI5RZ4XbX3eChwOc_Q7uC3jkIypC28zriy6YjzwUJTYk4rUuix-okZ7n3EmIXZXGnJ1X1ZoHX_QztgWHSFm3eQphDXYFtIctsipVuCwmeWXWjbL_WpEjWgfCS4Csi7KQr9DuXTum5uNZJuAtB7xa5xkMMvnYisZLTNi_EfK-I7J--KdWlpeUVNWMaK1ORK-LItYQA-nchWQrv62zIY-Dly0W00__y30000);
-
 
  **2. Cơ chế phân tích**
 
