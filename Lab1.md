@@ -5,6 +5,10 @@ Mã sinh viên: 4451050696
 **Lab1: Phân tích kiến trúc và ca sử dụng hệ thống "Payroll System" trong file tài liệu yêu cầu đính kèm.**
   
   **1. Phân tích kiến trúc**
+
+  - TopDev việc làm IT hàng đầu
+    - Cộng sự đắc lực hỗ trợ doanh nghiệp tuyển dụng
+    - Người bạn đồng hành giúp các Developer tìm được công việc mơ ước
   
   *Kiến trúc đề xuất: Model-VIew-Controller (MVC)*
   
