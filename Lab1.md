@@ -2,10 +2,16 @@ Họ tên: Đoàn Phú
 Mã sinh viên: 4451050696
 
 
-**Phân tích kiến trúc và ca sử dụng hệ thống "Payroll System" trong file tài liệu yêu cầu đính kèm.**
+**Lab1: Phân tích kiến trúc và ca sử dụng hệ thống "Payroll System" trong file tài liệu yêu cầu đính kèm.**
+  /**1. Phân tích kiến trúc**
+  
+  **2. Cơ chế phân tích**
 
-   **1. **
+  **3. Phân tích ca sử dụng Payment**
+   
+  **4. Phân tích ca sử dụng Maintain Timecard**
 
+  **5. Hợp nhất kết quả phân tích**
 
 
 
