@@ -5,7 +5,18 @@ Mã sinh viên: 4451050696
 **Lab1: Phân tích kiến trúc và ca sử dụng hệ thống "Payroll System" trong file tài liệu yêu cầu đính kèm.**
   
   **1. Phân tích kiến trúc**
-  There was an error committing your changes: DoanPhuJST has committed since you started editing
+  -Kiến trúc đề xuất: Model-VIew-Controller (MVC)
+  -Lý do chọn kiến trúc này:
+    -Mã nguồn dễ bảo trì và mở rộng: Kiến trúc MVC giúp mã nguồn dễ bảo trì, có thể mở rộng và phát triển một cách dễ dàng.
+Các thành phần có thể kiểm tra độc lập: Các thành phần của nó có thể được kiểm tra riêng biệt từ các thành phần người dùng.
+Hỗ trợ các loại khách hàng mới dễ dàng hơn: Kiến trúc này hỗ trợ việc thêm các loại khách hàng mới một cách dễ dàng.
+Phát triển song song các thành phần: Có thể phân chia phát triển các thành phần khác nhau một cách song song.
+Giảm bớt độ phức tạp: Bằng cách chia ứng dụng thành ba phần, bạn có thể tránh được sự phức tạp.
+Sử dụng mô hình Front Controller: Chỉ sử dụng mô hình Front Controller, trong đó mỗi yêu cầu được xử lý bởi một bộ điều khiển duy nhất.
+Hỗ trợ phát triển theo hướng kiểm thử tối đa: Hỗ trợ phát triển theo hướng kiểm thử (TDD) một cách tối đa.
+Dễ dàng cho các nhóm phát triển lớn: Một nhóm lớn các nhà thiết kế và phát triển web có thể tạo và duy trì các ứng dụng web với nó.
+Kiểm tra từng lớp và đối tượng riêng biệt: Bạn có thể kiểm tra tất cả các lớp và đối tượng riêng lẻ vì chúng đều độc lập với nhau.
+Hành động của bộ điều khiển có thể nhóm logic: Các hành động của bộ điều khiển có thể được nhóm lại một cách logic bằng cách sử dụng các mẫu thiết kế MVC.
   
 
   
