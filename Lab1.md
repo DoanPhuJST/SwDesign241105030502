@@ -35,8 +35,12 @@ Mã sinh viên: 4451050696
     - Lý do: Đảm bảo hệ thống mới hoạt động mượt mà với cơ sở dữ liệu quản lý dự án hiện có.
   - Caching:
     - Lý do: Sử dụng bộ nhớ đệm để cải thiện hiệu suất hệ thống.
+      
  **3. Phân tích ca sử dụng Payment**
-   
+  - Sơ đồ squence:
+![Diagram](https://www.planttext.com/api/plantuml/png/R971IWCn48RlynJ3NlPKIdliGGghY0UX6ANdc9ssmIIp9hF2Ffi77ybNSDQsAor2Jl_t_KCc-VxyMXUnMVeO0CgRJvYv481u2OILeVUUaYEyzNQVRQm0wkU3BwZ7Ol5fhrRmYT1nZ9G4O5x3dn7x87u65qOz1x1EEEDTx08FHF3AVMfj7h3Qs66K6awIEGJA5Tg23RXZC0c6yeTtz4iDQE15s-U1JrGwJkM8juk9dygNU0a0voBERh315HeAv0HFFZwI7BY5PiH6yIQperAkkHdvTgd2IzTQeV_vGlazoRGzFgGTWzOKJjaAzGbsFiUh6QV9UkKrfLP_xGS00F__0m00)
+
+
  **4. Phân tích ca sử dụng Maintain Timecard**
 
  **5. Hợp nhất kết quả phân tích**
