@@ -15,7 +15,8 @@ Mã sinh viên: 4451050696
     - Dễ dàng cho các nhóm phát triển lớn: Một nhóm lớn các nhà thiết kế và phát triển web có thể tạo và duy trì các ứng dụng web với nó.
     - Kiểm tra từng lớp và đối tượng riêng biệt: Bạn có thể kiểm tra tất cả các lớp và đối tượng riêng lẻ vì chúng đều độc lập với nhau.
     - Hành động của bộ điều khiển có thể nhóm logic: Các hành động của bộ điều khiển có thể được nhóm lại một cách logic bằng cách sử dụng các mẫu thiết kế MVC.
-  -*Ý nghĩa từng thành phần: Gồm 3 thành phần chính:*
+  - *Ý nghĩa từng thành phần:*
+    _Gồm 3 thành phần chính:_
     - Model(M): là nơi lưu trữ dữ liệu và logic. Ví dụ, khi Controller truy xuất thông tin khách hàng từ cơ sở dữ liệu, dữ liệu được chuyển đổi giữa các thành phần controller hoặc giữa các yếu tố logic nghiệp vụ. 
      Nó thao tác dữ liệu và gửi lại cơ sở dữ liệu, hoặc được sử dụng để hiển thị thông tin tương tự.
     - View(V): đại diện cho cách dữ liệu được trình bày trong ứng dụng (UI). Các view được tạo ra dựa trên dữ liệu thu thập từ model. Bằng cách yêu cầu thông tin từ model, sau đó sẽ trả kết quả tới người dùng. 
