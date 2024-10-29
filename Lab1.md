@@ -39,10 +39,14 @@ Mã sinh viên: 4451050696
  **3. Phân tích ca sử dụng Payment**
   - Sơ đồ squence:
 
+   
+
     
 ![Diagram](https://www.planttext.com/api/plantuml/png/R971IWCn48RlynJ3NlPKIdliGGghY0UX6ANdc9ssmIIp9hF2Ffi77ybNSDQsAor2Jl_t_KCc-VxyMXUnMVeO0CgRJvYv481u2OILeVUUaYEyzNQVRQm0wkU3BwZ7Ol5fhrRmYT1nZ9G4O5x3dn7x87u65qOz1x1EEEDTx08FHF3AVMfj7h3Qs66K6awIEGJA5Tg23RXZC0c6yeTtz4iDQE15s-U1JrGwJkM8juk9dygNU0a0voBERh315HeAv0HFFZwI7BY5PiH6yIQperAkkHdvTgd2IzTQeV_vGlazoRGzFgGTWzOKJjaAzGbsFiUh6QV9UkKrfLP_xGS00F__0m00)
 
-  - Sơ đồ lớp phân tích:
+  - Sơ đồ mô tả lớp phân tích:
+
+ ![Diagram](https://www.planttext.com/api/plantuml/png/UhzxlqDnIM9HIMbk3XTNSNPcda9HVd4g5rTgNabcIQM2Qsv1Vav-PMfgK6fnGNuUK0Og4P1OcGjameMval9Byr8IY-0oplbv9KNvEJcfHGfSoH0sJ2eujQWiCnce1vMleAkBgHct6hZLc2emNSt5vP2QbmBq90000F__0m00)
     
  **4. Phân tích ca sử dụng Maintain Timecard**
   - Sơ đồ squence:
@@ -50,6 +54,12 @@ Mã sinh viên: 4451050696
     
 ![Diagram](https://www.planttext.com/api/plantuml/png/P95DQiD034RtEeNmngiGacKM8U2MqcqdDEl9M4b5voUTaGCvMnOzKgzGkSOseJ2hxtrFICpF_NjNn6RfWWSednmnfq80mk89AqDV7KL7-CJsd6se0Ehz1nVKPx5mF6lBSoHqAGIA0h2iOMw4pWiluA5HBm6iavJnELnykX71CNMnjVc6rPu3EPlR9aN9oNlA5Tg23RWXc1k6yfKT_M43EfX5_N7a6vLBYcN0XzN4H_kHhm5WD76nnGOtQBfZOC5HWAO7Hi6xzTnQeHcP7XtMlMIl__ALvYyaqxNu6ay9jAvmoZQe5vyuXyaU5YY5KzJjTXHR_QDV0000__y30000)
 
-  - Sơ đồ lớp phân tích:
+  - Sơ đồ mô tả lớp phân tích:
+
+    ![Diagram](https://www.planttext.com/api/plantuml/png/UhzxlqDnIM9HIMbk3XTNSNPcda9HVd4g5rTgNabcIQM2Qsv1Vav-PMfgK6fnGNuUK0Og4PAPcvgSM9G25-TAoY_DIqaiGaWvv-UL5ENdvAGMAN0bGzXmkU3KehBCPA0kD045NLqi-l6fWZi0YnfCrtDnEQJcfG0z2m000F__0m00)
     
  **5. Hợp nhất kết quả phân tích**
+  - Sơ đồ mô tả lớp phân tích:
+
+
+
