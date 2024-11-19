@@ -18,7 +18,8 @@ Sơ đồ tuần tự
 
 Sơ đồ lớp phân tích:
 
-![Diagram](https://www.planttext.com/api/plantuml/png/L8un3i8m34LtdyBAtZiKfG8nC4KSmBGMYcWS4Jj8d8s18t45h3An-R__zVq_h_UeHirwMG7qbWLRLGQmR2jZEB4gNLbnmCJtpZ8pJfckZKe0W4ljib1xOjZNLdPBoPBL6bb-S41IF9oFC5UnLbSC_txyuIsM8h3uIo-QwjoBYutxa1Hn6BQU5Frm0YFBudk_0000__y30000)
+![Diagram](https://www.planttext.com/api/plantuml/png/L8yn3i8m34LtdyBAtZkqIWLYfU80fhLGH18ZsqNgsHWu4bSWAXER_xF_r_VdzUxDINqj6S3kgQAACO0dpumXAfCp3aj9DPahUNeodlaXwjXXp6I6OwARKi6XKjuiMG20gwnr8Tqm74JBlpyW6Hul9vYbkah6yB-FFxoVJH6ujZ8jQ9HvBKtil5MS8dRTdZF5DZG2FTUbVV85003__mC0)
+
 
 Giải thích:
 Lớp Administrative điều khiển lớp Administrative hiển Form để người dùng nhập các tiêu chí. Khi người dùng nhập xong, lớp Adminstrative sẽ thực hiện phương lưu và lưu theo vị trí người dùng muốn.
