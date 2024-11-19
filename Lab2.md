@@ -1,7 +1,7 @@
 Họ và tên: Đoàn Phú - Mã sinh viên: 4451050696
 
 
-1. Usecase : Create Administrative Report
+**1. Usecase : Create Administrative Report**
 - Các lớp phân tích;
   - Lớp Boundary: FormAdministrative
   - Lớp Control: AdministrativeControl
@@ -15,5 +15,12 @@ Sơ đồ tuần tự
  Nhiệm vụ của từng lớp phân tích, xác định một số thuộc tính và quan hệ giữa các lớp phân tích:
 
 ![Diagram](https://www.planttext.com/api/plantuml/png/L911JiD034NtFeKrAq0Q9BQKHMa24XiMm0McYKb7dR6Z6QSegZW4vs71Xljm1IQXhSJEVlRta_pp-RNCwf8ECG3ahMTCaWb0lGR2Af5JmjisUlPParE_8toYNfAYnIgudB7shaik0ZHpQ-ubnVy9WoxZQWze7rWnpV6NiQT58VKaM5FdUQfEXFZxuz1F6Ofza97eqSN2te-gFmqVFPMm9Wcphjg3tObl3xhdif1VHy_TsVa2x5eaa6DiDjHi9t8wMKipH6ATZzm1L7XZBrjvOukhQwof9sxBk71pPIxiq5iJ7O-ch2xBgFpn5m00__y30000)
+
+Sơ đồ lớp phân tích:
+
+![Diagram](https://www.planttext.com/api/plantuml/png/L8un3i8m34LtdyBAtZiKfG8nC4KSmBGMYcWS4Jj8d8s18t45h3An-R__zVq_h_UeHirwMG7qbWLRLGQmR2jZEB4gNLbnmCJtpZ8pJfckZKe0W4ljib1xOjZNLdPBoPBL6bb-S41IF9oFC5UnLbSC_txyuIsM8h3uIo-QwjoBYutxa1Hn6BQU5Frm0YFBudk_0000__y30000)
+
+Giải thích:
+Lớp Administrative điều khiển lớp Administrative hiển Form để người dùng nhập các tiêu chí. Khi người dùng nhập xong, lớp Adminstrative sẽ thực hiện phương lưu và lưu theo vị trí người dùng muốn.
    
 
