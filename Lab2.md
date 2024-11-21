@@ -20,8 +20,16 @@ Sơ đồ lớp phân tích:
 
 ![Diagram](https://www.planttext.com/api/plantuml/png/L8yn3i8m34LtdyBAtZkqIWLYfU80fhLGH18ZsqNgsHWu4bSWAXER_xF_r_VdzUxDINqj6S3kgQAACO0dpumXAfCp3aj9DPahUNeodlaXwjXXp6I6OwARKi6XKjuiMG20gwnr8Tqm74JBlpyW6Hul9vYbkah6yB-FFxoVJH6ujZ8jQ9HvBKtil5MS8dRTdZF5DZG2FTUbVV85003__mC0)
 
-
 Giải thích:
 Lớp Administrative điều khiển lớp Administrative hiển Form để người dùng nhập các tiêu chí. Khi người dùng nhập xong, lớp Adminstrative sẽ thực hiện phương lưu và lưu theo vị trí người dùng muốn.
+
+**2. Usecase : Create Employee**
+- Các lớp phân tích
+  - Lớp Boundary: FormReport
+  - Lớp Control: CreateEmpoloyeeControl
+  - Lớp Entity: Report
+ 
+Sơ đồ tuần tự:
+![Diagram](https://www.planttext.com/api/plantuml/png/J94zJiD048NxESMJ-rp01OfaVaI7i7A0zNeKMzYxONyYKbDG80eAIYGYH8a4RLnGME8UFW5NO1oZY6QqcZVlVJFQd-vhxeDo8RODaR-g3PprJ1Jgq32I2v5gNQ-K2Hupv7mTsMZ6SQsMJhK9aTB1EYmyEoYFI8MDfbHkW-JKklQILzQ5P9JE5kUahGdEDaWonohmIRjgx8OvczhxiJmZDaANW7zcfb85LIZFA0kYYDdiQ4nCeQkXUp08G_Tabl13zuXbFNJFQFgN5cjvtcaPiYY7xXFzrf3OHdUUfGWkRd0JXzrRe3oJxhZadnvJLEA-bMn1tADKfeBljxg2begsVvrmkggnglftYbF0OQTnuY1EgNBTdiF27dPRYwANeiT2BFsoID5yVqHXiiLwv0OdRfgpAUMFVW400F__0m00)
    
 
