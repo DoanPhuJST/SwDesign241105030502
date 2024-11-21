@@ -30,6 +30,7 @@ Lớp Administrative điều khiển lớp Administrative hiển Form để ngư
   - Lớp Entity: Report
  
 Sơ đồ tuần tự:
-![Diagram](https://www.planttext.com/api/plantuml/png/J94zJiD048NxESMJ-rp01OfaVaI7i7A0zNeKMzYxONyYKbDG80eAIYGYH8a4RLnGME8UFW5NO1oZY6QqcZVlVJFQd-vhxeDo8RODaR-g3PprJ1Jgq32I2v5gNQ-K2Hupv7mTsMZ6SQsMJhK9aTB1EYmyEoYFI8MDfbHkW-JKklQILzQ5P9JE5kUahGdEDaWonohmIRjgx8OvczhxiJmZDaANW7zcfb85LIZFA0kYYDdiQ4nCeQkXUp08G_Tabl13zuXbFNJFQFgN5cjvtcaPiYY7xXFzrf3OHdUUfGWkRd0JXzrRe3oJxhZadnvJLEA-bMn1tADKfeBljxg2begsVvrmkggnglftYbF0OQTnuY1EgNBTdiF27dPRYwANeiT2BFsoID5yVqHXiiLwv0OdRfgpAUMFVW400F__0m00)
+![Diagram](https://www.planttext.com/api/plantuml/png/J94zJiD048NxESMJ-rp01OfaVaIBbGEirwFOmjuD-nEHce82KL1G8X4XIYHeuuB24lVm2RW2upYAQ9vMC_FUDwFzxRxdFYWNOjiG-UlQm5dFHA4E3ID1pZUHZMQSrchfL9iGAHsimyApW_A8LDXeIkKsICwjQwzuPLr8njR5ufAqDS7P1adcM0K-QrUDtJ1dKta_bcV4HdWIyC_CLAgW2kKPPK4KCPkTZ8afT3LqZmPXw9xD4dxedh2iX-u5JV_QOYtFUor35kNGVQ7V6XBRwCwp5C753MxZi7iFb6TI7PSyz6EAIjntaYs81vJALF3zLbVGecZxjmcdgnghgl-WE0KSTnedZiqfLQxRSrZOmsvhKVGYUXHYgPT5YkRdCmgJBTOZDpXnqvnDAR_o1m00__y30000)
    
-
+ Nhiệm vụ của từng lớp phân tích, xác định một số thuộc tính và quan hệ giữa các lớp phân tích: 
+ 
