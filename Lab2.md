@@ -36,5 +36,13 @@ Sơ đồ tuần tự:
 
  ![Diagram](https://www.planttext.com/api/plantuml/png/R931QW9138RlUOgm9rjOmQk78frL46_YeTUWmGsTcImp6M4Hdyn37ybNqDMsjE0f-V-GZp-vdBzcsIXP2HuWVqh4f9a1JCmpEayvSyRwqM4Zj4yK061xrmjDOSsT9iCZ8E8o6ffmSQqCiY5ZZ7lgtyaQAl-i5TkcBLiuuG_C9RuDvw7psZCxZPRKtx47bHrQAlr78Hkz_5gjSDoqSdC6ojDzh2OLljQbgx4A5FiA7tcdw3HqciL48_ovenw_FKy2CEEu6_xqNQy0003__mC0)
 
- 
+ Sơ đồ lớp phân tích:
+
+ ![Diagram]()
+
+ Giải thích: Lớp CreateEmployeeControl điều khiển lớp FormReport để hiện Form cho người dùng. Khi người dùng chọn xong, lớp CreateEmployeeControl xử lý và lưu báo cáo vào cơ sở dữ liệu
+
+ **2. Usecase : Login**
+ Sơ đồ tuần tự:
+![Diagram](https://www.planttext.com/api/plantuml/png/L90nJiCm68Nt_nHFsNk13AXIAX1IcQ8Um4sin4fYW_sd8dC7vjwWY8cX0n9JCZ2a5_49k09EmW2R_-VllVVRtyFNsh6mt3OraQkKXZLE4h7YMY9waCw9GZgiaCgdLkfCOgD4OKKJ4OcCZSNEIKjxq-fSs0xHhR7DrXHAHn0ETxjxoencQsf4ivmiqtoR9YHrgEgGTevbGxbWiHTE8aatMn1DsLZTJ368eKlVNnx1urcXAetltpGEunbDa3aeldzlQKA38qs2eV33HO7ByLCNuF2uv_4r2xCVFZ8AHE3ceXYLyiEn0Lln5x-UhiTmN7ffGkVaN-koS_oVcXOo20qlSyz95qIqbZeFF_m3003__mC0)
  
