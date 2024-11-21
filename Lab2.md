@@ -33,4 +33,8 @@ Sơ đồ tuần tự:
 ![Diagram](https://www.planttext.com/api/plantuml/png/J94zJiD048NxESMJ-rp01OfaVaIBbGEirwFOmjuD-nEHce82KL1G8X4XIYHeuuB24lVm2RW2upYAQ9vMC_FUDwFzxRxdFYWNOjiG-UlQm5dFHA4E3ID1pZUHZMQSrchfL9iGAHsimyApW_A8LDXeIkKsICwjQwzuPLr8njR5ufAqDS7P1adcM0K-QrUDtJ1dKta_bcV4HdWIyC_CLAgW2kKPPK4KCPkTZ8afT3LqZmPXw9xD4dxedh2iX-u5JV_QOYtFUor35kNGVQ7V6XBRwCwp5C753MxZi7iFb6TI7PSyz6EAIjntaYs81vJALF3zLbVGecZxjmcdgnghgl-WE0KSTnedZiqfLQxRSrZOmsvhKVGYUXHYgPT5YkRdCmgJBTOZDpXnqvnDAR_o1m00__y30000)
    
  Nhiệm vụ của từng lớp phân tích, xác định một số thuộc tính và quan hệ giữa các lớp phân tích: 
+
+ ![Diagram](https://www.planttext.com/api/plantuml/png/R931QW9138RlUOgm9rjOmQk78frL46_YeTUWmGsTcImp6M4Hdyn37ybNqDMsjE0f-V-GZp-vdBzcsIXP2HuWVqh4f9a1JCmpEayvSyRwqM4Zj4yK061xrmjDOSsT9iCZ8E8o6ffmSQqCiY5ZZ7lgtyaQAl-i5TkcBLiuuG_C9RuDvw7psZCxZPRKtx47bHrQAlr78Hkz_5gjSDoqSdC6ojDzh2OLljQbgx4A5FiA7tcdw3HqciL48_ovenw_FKy2CEEu6_xqNQy0003__mC0)
+
+ 
  
