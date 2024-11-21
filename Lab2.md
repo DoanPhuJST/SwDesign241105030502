@@ -38,11 +38,30 @@ Sơ đồ tuần tự:
 
  Sơ đồ lớp phân tích:
 
- ![Diagram]()
+ ![Diagram](https://www.planttext.com/api/plantuml/png/F4ux3i8m3Drz2Yjxxr0fVCJ0GiK1J6kXYYGkjZlqR0mSYIkGKedjwVq_htThJkfpJW3s60kg60Fuw8andDcCxcpOOCVFcKlFk1lfhfG30DnaBWFfWk4WcYyyYNf0CZnUJz1BSPM48IgJypvFIHRckD4_MnU1IvrQSClMIeIQnQPPjIwku2-rN8Rwymi00F__0m00)
 
  Giải thích: Lớp CreateEmployeeControl điều khiển lớp FormReport để hiện Form cho người dùng. Khi người dùng chọn xong, lớp CreateEmployeeControl xử lý và lưu báo cáo vào cơ sở dữ liệu
 
- **2. Usecase : Login**
+ **3. Usecase : Login**
+
+- Các lớp phân tích
+  - Lớp Boundary: FormLogin
+  - Lớp Control: LoginControl
+  - Lớp Entity: System
+
+ 
  Sơ đồ tuần tự:
+
+ 
 ![Diagram](https://www.planttext.com/api/plantuml/png/L90nJiCm68Nt_nHFsNk13AXIAX1IcQ8Um4sin4fYW_sd8dC7vjwWY8cX0n9JCZ2a5_49k09EmW2R_-VllVVRtyFNsh6mt3OraQkKXZLE4h7YMY9waCw9GZgiaCgdLkfCOgD4OKKJ4OcCZSNEIKjxq-fSs0xHhR7DrXHAHn0ETxjxoencQsf4ivmiqtoR9YHrgEgGTevbGxbWiHTE8aatMn1DsLZTJ368eKlVNnx1urcXAetltpGEunbDa3aeldzlQKA38qs2eV33HO7ByLCNuF2uv_4r2xCVFZ8AHE3ceXYLyiEn0Lln5x-UhiTmN7ffGkVaN-koS_oVcXOo20qlSyz95qIqbZeFF_m3003__mC0)
+
+
+Nhiệm vụ của từng lớp phân tích, xác định một số thuộc tính và quan hệ giữa các lớp phân tích: 
+
+![Diagram](https://www.planttext.com/api/plantuml/png/L8-n2W8n44Jx_OhbAXLIs5iSA8AerVa3Iswv2ruIpMv44R_Cma_o5pmLHQjXuCqmSx_UIb5Acdq785iNC4LX07NQCHPh5g661GrMlCySBEFCKPF85m1WEnB1UKn-5HiNpe2BeAZabcsay7QUTDbIXii7Vw7J63J5haySeglnI7RJPZiOFZ64RoDEZFaBmA_1OboCJDwPNh4wYRBlHvKSwlxE0m00__y30000)
+
+
+ ![Diagram](
+
+
  
