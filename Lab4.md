@@ -69,7 +69,7 @@ Lab 4 - Thiết kế ca sử dụng cho hệ thống "Payroll System" dựa vào
 
 ![Diagram](https://www.planttext.com/api/plantuml/png/b9D1KiCm34NtEeMcgtI6NY0Bw03PToWN48xQUcBBmPONEHiBZiGLS9e0YqwOTcNPqfE-BVdhutERbA9cxm1IPmLZI0oWLXtZIvOT3J4uXnlSytjcCOpFbewHF00P3H4RtximC2CbR01WFoHbZvjxdDcd83gk76iy5wlMSE5QY8zPi9-ERw1i6g6MXeUhaIFho23va6LHuQlrR2YsKxpEExHo20NvyU9cuJAiESe5Tgr4GyvaHyh5TmCstyopA7hMKsXlXDz8kd-rFfQ0gUkbmIpjH6WaIML4R92gOER4fhixl_6OQmr_rD9xcI076xsdCSU2v6X5YrbZFrg_XHQKDZLAK7iOgbLPaUOnMQq1jaLu-GNV0000__y30000)
 
-- **1.3 Mô tả hành vi lưu trữ**
+- **2.3 Mô tả hành vi lưu trữ**
   - Khởi động quy trình tính lương:
     - System Clock khởi động quy trình bằng cách gọi phương thức run payroll(). Quy trình này được kiểm soát bởi PayrollController.
   - Kiểm tra ngày thanh toán:
