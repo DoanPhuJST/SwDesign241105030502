@@ -33,12 +33,36 @@ Lab 4 - Thiết kế ca sử dụng cho hệ thống "Payroll System" dựa vào
 
 **3. Usecase: Login**
 - **1.1 Mô tả sự tương tác giữa các đối tượng thiết kế**
+  - Người Dùng ─> LoginForm: Khởi động quy trình đăng nhập bằng cách nhập thông tin đăng nhập.
+  - LoginForm ─> LoginController: Gửi yêu cầu đăng nhập với thông tin người dùng.
+  - LoginController ─> AuthenticationService: Xác thực thông tin người dùng bằng cách gọi phương thức authenticateUser().
+  - AuthenticationService ─> UserDatabase: Truy xuất thông tin người dùng để xác thực.
+  - UserDatabase: Trả về kết quả xác thực cho AuthenticationService.
+  - AuthenticationService ─> LoginController: Trả kết quả xác thực cho LoginController.
+ - LoginController ─> LoginForm: Thông báo kết quả đăng nhập (thành công hoặc thất bại).
 - **1.2 Đơn giản hóa sơ đồ sequence bằng Subsystem**
 
-- **1.3 Mô tả hành vi lưu trữ**
 
+- **1.3 Mô tả hành vi lưu trữ**
+  - Người dùng bắt đầu đăng nhập:
+    - Người dùng (User) tương tác với giao diện LoginForm bằng cách nhập tên đăng nhập và mật khẩu, sau đó gửi yêu cầu đăng nhập bằng cách gọi phương thức login().
+  - Xác thực thông tin đăng nhập:
+    - LoginForm gọi phương thức authenticateUser() trên LoginController để xử lý thông tin đăng nhập.
+    - LoginController yêu cầu AuthenticationService xác thực thông tin người dùng.
+    - AuthenticationService gọi phương thức getUserInfo() từ UserDatabase để lấy thông tin người dùng dựa trên tên đăng nhập.
+    - UserDatabase trả về thông tin người dùng cho AuthenticationService.
+    - AuthenticationService kiểm tra thông tin và xác thực người dùng.
+  - Thông báo kết quả:
+    - AuthenticationService trả kết quả xác thực (thành công hoặc thất bại) về LoginController.
+    - LoginController gửi thông báo kết quả đăng nhập trở lại LoginForm.
+    - LoginForm hiển thị kết quả đăng nhập cho người dùng (chào mừng khi đăng nhập thành công hoặc thông báo lỗi khi thất bại).
 - **1.4 Tinh chỉnh mô tả luồng sự kiện**
 
 - **1.5 Hợp nhất các lớp và hệ thống con**
+  - LoginForm: Chứa các trường nhập liệu cho tên đăng nhập và mật khẩu, và các phương thức để gửi yêu cầu đăng nhập.
+  - LoginController: Đóng vai trò là trung gian, xử lý yêu cầu đăng nhập từ LoginForm và giao tiếp với AuthenticationService.
+  - AuthenticationService: Xử lý việc xác thực người dùng, xác minh thông tin đăng nhập bằng cách truy vấn UserDatabase.
+  - UserDatabase: Lưu trữ thông tin người dùng và cung cấp phương thức để truy xuất thông tin khi cần thiết.
+
 
   
