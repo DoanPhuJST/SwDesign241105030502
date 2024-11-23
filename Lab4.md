@@ -16,11 +16,29 @@ Lab 4 - Thiết kế ca sử dụng cho hệ thống "Payroll System" dựa vào
 
 - **1.3 Mô tả hành vi lưu trữ**
 
+- **1.4 Tinh chỉnh mô tả luồng sự kiện**
+- **1.5 Hợp nhất các lớp và hệ thống con**
+
 **2. Usecase: RunPayroll**
 - **1.1 Mô tả sự tương tác giữa các đối tượng thiết kế**
 - **1.2 Đơn giản hóa sơ đồ sequence bằng Subsystem**
 
 ![Diagram](https://www.planttext.com/api/plantuml/png/b9D1KiCm34NtEeMcgtI6NY0Bw03PToWN48xQUcBBmPONEHiBZiGLS9e0YqwOTcNPqfE-BVdhutERbA9cxm1IPmLZI0oWLXtZIvOT3J4uXnlSytjcCOpFbewHF00P3H4RtximC2CbR01WFoHbZvjxdDcd83gk76iy5wlMSE5QY8zPi9-ERw1i6g6MXeUhaIFho23va6LHuQlrR2YsKxpEExHo20NvyU9cuJAiESe5Tgr4GyvaHyh5TmCstyopA7hMKsXlXDz8kd-rFfQ0gUkbmIpjH6WaIML4R92gOER4fhixl_6OQmr_rD9xcI076xsdCSU2v6X5YrbZFrg_XHQKDZLAK7iOgbLPaUOnMQq1jaLu-GNV0000__y30000)
 
+- **1.3 Mô tả hành vi lưu trữ**
+
+- **1.4 Tinh chỉnh mô tả luồng sự kiện**
+
+- **1.5 Hợp nhất các lớp và hệ thống con**
+
+**3. Usecase: Login**
+- **1.1 Mô tả sự tương tác giữa các đối tượng thiết kế**
+- **1.2 Đơn giản hóa sơ đồ sequence bằng Subsystem**
+
+- **1.3 Mô tả hành vi lưu trữ**
+
+- **1.4 Tinh chỉnh mô tả luồng sự kiện**
+
+- **1.5 Hợp nhất các lớp và hệ thống con**
 
   
