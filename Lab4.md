@@ -12,3 +12,5 @@ Lab 4 - Thiết kế ca sử dụng cho hệ thống "Payroll System" dựa vào
 **- 1.2 Đơn giản hóa sơ đồ sequence bằng Subsystem**
 
   ![Diagram](https://www.planttext.com/api/plantuml/png/Z99DJiD038NtFeMNiCW5ka2LqY0sHKZb0cx62WFp4smFKWx52LYmu41SWQ1IY21HMSp2bZy_lwTvVtbTgv5OYG507tn2oSe0vYqmRbcLEiQT3MDLuOuV2wUMSUEf4ue0r5eMR68Vyi2CfDW0D5XTuAsFt9AuoonnXP5yil4TksVdC1sO0dLE9Za4bXMwj-S-q313_KnziZUIxxcrBQNnNDcGqPwKLzYnrNSa7TVPiIxYn-u1A2ASR4OJguKpXQt8jxUl1GjgVw9nNdzvdCbltCTobOleM1yiNPUuPz5_9gdqnATYN4gnz8xi93r9SIe606jERlnW7m000F__0m00)
+  **- 1.3 Mô tả hành vi lưu trữ**
+  
