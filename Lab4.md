@@ -65,6 +65,7 @@ Lab 4 - Thiết kế ca sử dụng cho hệ thống "Payroll System" dựa vào
  - LoginController ─> LoginForm: Thông báo kết quả đăng nhập (thành công hoặc thất bại).
 - **1.2 Đơn giản hóa sơ đồ sequence bằng Subsystem**
 
+![Diagram](https://www.planttext.com/api/plantuml/png/T95DJiD038NtFeMNiCW5ia1599MGK8KQSO0XTOF5n2DiJoNEne8ZSGKcANyHxT8pt_Epdp_UtbVcGJsF4S2UML2J4O2pHy9jbllmgYb6hB2ZbqpI4pOS1WqZGEWzAMw6dBZ9Cc0mR05QhAxkqi2oJZhMEBUVwujB-7al3Cx5JHAV34XhrCd1bl3l_oIvplv4ujm7voGTwO5xgh5FicSTY-OaC2aVZBG97XwD9YDNfWFD3hUoBmFDV6dmXyFgl6Ffa5MsP3dwUTkl89OxBeJ_TlpEvHZUAVeON-7Q6hjiHcPOph0E76a702kINJdd9m000F__0m00)
 
 - **1.3 Mô tả hành vi lưu trữ**
   - Người dùng bắt đầu đăng nhập:
