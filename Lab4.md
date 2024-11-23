@@ -87,7 +87,32 @@ Lab 4 - Thiết kế ca sử dụng cho hệ thống "Payroll System" dựa vào
     - LoginController gửi thông báo kết quả đăng nhập trở lại LoginForm.
     - LoginForm hiển thị kết quả đăng nhập cho người dùng (chào mừng khi đăng nhập thành công hoặc thông báo lỗi khi thất bại).
 - **1.4 Tinh chỉnh mô tả luồng sự kiện**
-
+  - Người dùng (User):
+    - Người dùng mở giao diện đăng nhập và nhập tên đăng nhập, mật khẩu, sau đó nhấn nút xác nhận.
+    - Phương thức startLogin() trên LoginForm được gọi, khởi động quy trình đăng nhập.
+  - LoginForm:
+    - Thu thập thông tin đăng nhập từ người dùng (tên đăng nhập và mật khẩu).
+    - Gửi yêu cầu requestLogin() đến LoginController để xử lý thông tin đăng nhập.
+    - Xác thực thông tin đăng nhập:
+  - LoginController:
+    - Nhận yêu cầu từ LoginForm và gọi phương thức authenticateUser() của AuthenticationService để xác minh thông tin.
+  - AuthenticationService:
+    - Xử lý xác thực bằng cách gọi phương thức retrieveLoginInformation() trên UserDatabase để truy vấn thông tin tài khoản của người dùng dựa trên tên đăng nhập.
+  - UserDatabase:
+    - Truy xuất thông tin tài khoản (bao gồm tên đăng nhập, mật khẩu được mã hóa, và các thông tin liên quan khác) từ cơ sở dữ liệu.
+    - Trả kết quả về cho AuthenticationService qua phương thức returnResult().
+  - AuthenticationService:
+    - So sánh thông tin được cung cấp bởi người dùng (từ LoginController) với dữ liệu nhận được từ UserDatabase.
+    - Nếu thông tin hợp lệ, xác thực thành công. Nếu không, xác thực thất bại.
+    - Trả kết quả (thành công hoặc thất bại) về LoginController.
+  - Thông báo kết quả:
+    - LoginController:
+      - Nhận kết quả xác thực từ AuthenticationService.
+      - Gửi thông báo kết quả (thành công hoặc thất bại) trở lại cho LoginForm qua phương thức returnResult().
+    - LoginForm:
+    - Hiển thị thông báo phù hợp cho người dùng:
+      - Nếu thành công: Chào mừng người dùng và chuyển họ đến màn hình chính của hệ thống.
+      - Nếu thất bại: Hiển thị thông báo lỗi và yêu cầu người dùng thử lại.
 - **1.5 Hợp nhất các lớp và hệ thống con**
   - LoginForm: Chứa các trường nhập liệu cho tên đăng nhập và mật khẩu, và các phương thức để gửi yêu cầu đăng nhập.
   - LoginController: Đóng vai trò là trung gian, xử lý yêu cầu đăng nhập từ LoginForm và giao tiếp với AuthenticationService.
