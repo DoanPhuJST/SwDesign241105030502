@@ -41,6 +41,12 @@ Lab 4 - Thiết kế ca sử dụng cho hệ thống "Payroll System" dựa vào
     - Nhân viên tương tác trực tiếp với hệ thống thông qua giao diện chính.
     - ProjectManagerDatabase chịu trách nhiệm xử lý cả phần truy vấn lẫn cập nhật thẻ công.
     - Dữ liệu được trả về trực tiếp mà không cần qua các bước trung gian.
+   
+
+
+
+
+
 **2. Usecase: RunPayroll**
 - **1.1 Mô tả sự tương tác giữa các đối tượng thiết kế**
 
