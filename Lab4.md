@@ -15,12 +15,35 @@ Lab 4 - Thiết kế ca sử dụng cho hệ thống "Payroll System" dựa vào
 
 
 - **1.3 Mô tả hành vi lưu trữ**
-
+  - Nhập dữ liệu:
+    - Người dùng (Employee) nhập giờ làm việc và các mã liên quan vào biểu mẫu TimecardForm.
+  - Lưu dữ liệu:
+    - Sau khi nhập xong, hệ thống thực hiện lưu thẻ công bằng cách gửi yêu cầu từ TimecardForm đến TimecardController.
+    - TimecardController gọi phương thức để cập nhật (updateTimecard()) trong ProjectManagerDatabase.
+    - ProjectManagerDatabase nhận dữ liệu thẻ công và lưu lại (saveTimecard).
 - **1.4 Tinh chỉnh mô tả luồng sự kiện**
+  - Người khởi động: Nhân viên (Employee) thực hiện hành động "Maintain Timecard."
+  - Luồng sự kiện chính:
+    - Nhân viên chọn duy trì thẻ chấm công trên giao diện (maintainTimecard()).
+    - TimecardForm gửi yêu cầu tới TimecardController để hiển thị thẻ công hiện tại.
+    - TimecardController truy vấn mã chi phí và thẻ công từ ProjectManagerDatabase.
+    - Dữ liệu nhận được từ cơ sở dữ liệu được gửi lại qua TimecardForm để hiển thị.
+  - Luồng sự kiện lưu:
+    - Nhân viên nhập giờ làm việc và yêu cầu lưu (enterHoursForChargeNumbers()).
+    - TimecardForm gửi yêu cầu lưu tới TimecardController.
+    - TimecardController gửi lệnh cập nhật đến cơ sở dữ liệu qua ProjectManagerDatabase.
 - **1.5 Hợp nhất các lớp và hệ thống con**
-
+  - Hợp nhất TimecardController và ProjectManagerDatabase:
+    - Vì chức năng của TimecardController chủ yếu là trung gian, bạn có thể cân nhắc gộp lớp này vào ProjectManagerDatabase để giảm số bước giao tiếp.
+    - Tích hợp chức năng của TimecardForm:
+    - Tích hợp phần kiểm tra và hiển thị trực tiếp vào giao diện người dùng thay vì sử dụng một lớp riêng TimecardForm, nếu cần đơn giản hóa.
+  - Hệ thống sau tinh chỉnh:
+    - Nhân viên tương tác trực tiếp với hệ thống thông qua giao diện chính.
+    - ProjectManagerDatabase chịu trách nhiệm xử lý cả phần truy vấn lẫn cập nhật thẻ công.
+    - Dữ liệu được trả về trực tiếp mà không cần qua các bước trung gian.
 **2. Usecase: RunPayroll**
 - **1.1 Mô tả sự tương tác giữa các đối tượng thiết kế**
+
 - **1.2 Đơn giản hóa sơ đồ sequence bằng Subsystem**
 
 ![Diagram](https://www.planttext.com/api/plantuml/png/b9D1KiCm34NtEeMcgtI6NY0Bw03PToWN48xQUcBBmPONEHiBZiGLS9e0YqwOTcNPqfE-BVdhutERbA9cxm1IPmLZI0oWLXtZIvOT3J4uXnlSytjcCOpFbewHF00P3H4RtximC2CbR01WFoHbZvjxdDcd83gk76iy5wlMSE5QY8zPi9-ERw1i6g6MXeUhaIFho23va6LHuQlrR2YsKxpEExHo20NvyU9cuJAiESe5Tgr4GyvaHyh5TmCstyopA7hMKsXlXDz8kd-rFfQ0gUkbmIpjH6WaIML4R92gOER4fhixl_6OQmr_rD9xcI076xsdCSU2v6X5YrbZFrg_XHQKDZLAK7iOgbLPaUOnMQq1jaLu-GNV0000__y30000)
