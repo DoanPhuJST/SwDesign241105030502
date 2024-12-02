@@ -29,18 +29,18 @@ Họ và tên: Đoàn Phú        -        Mã sinh viên: 4451050696
 ## **2 Document Subsystem Elements**
   ### **_a) Timecard Subsystem_**
   - Quản lý thông tin giờ làm việc của nhân viên.
-    - Lấy danh sách thẻ chấm công từ cơ sở dữ liệu.
-    - Cập nhật trạng thái và hiển thị thông tin thẻ chấm công.
+  - Lấy danh sách thẻ chấm công từ cơ sở dữ liệu.
+  - Cập nhật trạng thái và hiển thị thông tin thẻ chấm công.
   ### b) Payroll Processing Subsystem
-    - Xử lý tính toán lương cho từng nhân viên dựa trên giờ làm việc theo trạng thái của tháng làm việc đó.
-    - Thực hiện thanh toán chuyển khoản thông qua ngân hàng hoặc in phiếu lương nếu nhận tiền mặt.
-    - Lưu thông tin tiền lương vào cơ sở dữ liệu.
+  - Xử lý tính toán lương cho từng nhân viên dựa trên giờ làm việc theo trạng thái của tháng làm việc đó.
+  - Thực hiện thanh toán chuyển khoản thông qua ngân hàng hoặc in phiếu lương nếu nhận tiền mặt.
+  - Lưu thông tin tiền lương vào cơ sở dữ liệu.
   ### **_c) Employee Management Subsystem_**
-    - Lưu trữ thông tin nhân viên.
-    - Cập nhật trạng thái nhân viên (đang làm việc hoặc bị xóa).
-    - Cung cấp thông tin cho các hệ thống con khác.
+  - Lưu trữ thông tin nhân viên.
+  - Cập nhật trạng thái nhân viên (đang làm việc hoặc bị xóa).
+  - Cung cấp thông tin cho các hệ thống con khác.
   ### **_d) Scheduler Subsystem_**
-    - Kích hoạt quy trình tính lương tự động vào thời gian xác định sẵn.
+  - Kích hoạt quy trình tính lương tự động vào thời gian xác định sẵn.
 ## **3 Describe Subsystem Dependencies**
   - Timecard Subsystem phụ thuộc vào Employee Management Subsystem để lấy các thông tin nhân viên liên quan đến việc tính toán lương.
   - Payroll Processing Subsystem phụ thuộc vào:
