@@ -28,7 +28,7 @@ Họ và tên: Đoàn Phú        -        Mã sinh viên: 4451050696
     - SystemClock: Kích hoạt quy trình Run Payroll theo thời gian được xác định trước.
 ## **2 Document Subsystem Elements**
   ### **_a) Timecard Subsystem_**
-    - Quản lý thông tin giờ làm việc của nhân viên.
+  - Quản lý thông tin giờ làm việc của nhân viên.
     - Lấy danh sách thẻ chấm công từ cơ sở dữ liệu.
     - Cập nhật trạng thái và hiển thị thông tin thẻ chấm công.
   ### b) Payroll Processing Subsystem
