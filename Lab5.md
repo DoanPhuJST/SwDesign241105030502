@@ -42,11 +42,11 @@ Họ và tên: Đoàn Phú        -        Mã sinh viên: 4451050696
   ### **_d) Scheduler Subsystem_**
     - Kích hoạt quy trình tính lương tự động vào thời gian xác định sẵn.
 ## **3 Describe Subsystem Dependencies**
-    - Timecard Subsystem phụ thuộc vào Employee Management Subsystem để lấy các thông tin nhân viên liên quan đến việc tính toán lương.
-    - Payroll Processing Subsystem phụ thuộc vào:
-      - Employee Management Subsystem để lấy danh sách các nhân viên có trạng thái("đang làm việc").
-      - Timecard Subsystem để lấy thông tin giờ làm việc của từng nhân viên.
-    - Scheduler Subsystem không phụ thuộc vào các hệ thống con nào nhưng kích hoạt quy trình hoạt động Payroll Processing Subsystem.
+  - Timecard Subsystem phụ thuộc vào Employee Management Subsystem để lấy các thông tin nhân viên liên quan đến việc tính toán lương.
+  - Payroll Processing Subsystem phụ thuộc vào:
+    - Employee Management Subsystem để lấy danh sách các nhân viên có trạng thái("đang làm việc").
+    - Timecard Subsystem để lấy thông tin giờ làm việc của từng nhân viên.
+  - Scheduler Subsystem không phụ thuộc vào các hệ thống con nào nhưng kích hoạt quy trình hoạt động Payroll Processing Subsystem.
 ## **4 Checkpoint**
   - Phân chia hợp lý: Các hệ thống đảm nhận mỗi nhiệm vụ khác nhau, với các thành phần được phân chia rõ ràng.
   - Tính dễ bảo trì: Các hệ thống con dễ bảo trì khi có sự thay đổi và các sự cố bên ngoài.
