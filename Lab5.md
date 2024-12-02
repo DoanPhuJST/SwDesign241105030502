@@ -9,7 +9,7 @@ Họ và tên: Đoàn Phú        -        Mã sinh viên: 4451050696
     - TimecardForm: Giao diện nhập liệu giờ làm việc và trạng thái thẻ.
     - TimecardController: Xử lý nghiệp vụ một cách logic liên quan đến thông tin thẻ chấm công.
     - ProjectManagementDatabase: Lấy danh sách thông tin của thẻ chấm công.
-  ### **_b) Run_Payroll_**
+  ### **_b) Run_Payroll Subsystem_**
   - Chức năng chính: Tính toán lương và thanh toán lương cho nhân viên.
   - Thành phần chính:
     - SystemClockInterface: Hiển thị để người dùng tương tác với hệ thống  
@@ -20,8 +20,14 @@ Họ và tên: Đoàn Phú        -        Mã sinh viên: 4451050696
   ### **_c) Management employee Subsystem_**
   - Chức năng chính: Quản lý thông tin nhân viên và trạng thái (đang làm việc, bị xóa, nghỉ việc).
   - Thành phần chính:
-    - Employee: Thực thể lưu trữ thông tin nhân viên.
+    - Employee: Đối tượng lưu trữ thông tin nhân viên.
     - EmployeeDatabase: Cơ sở dữ liệu nhân viên.
+  ### **_d) Scheduler Subsystem_**
+  - Chức năng chính: Kích hoạt quy trình tính lương theo lịch đẫ cài đặt .
+  - Thành phần chính:
+    - SystemClock: Kích hoạt quy trình Run Payroll theo thời gian được xác định trước.
+## **2 Document Subsystem Elements**
+      
 
 
 
