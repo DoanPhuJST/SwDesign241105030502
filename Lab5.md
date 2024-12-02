@@ -1,6 +1,6 @@
 Họ và tên: Đoàn Phú        -        Mã sinh viên: 4451050696
 
-# Payroll System Subsystem Design
+# Lab5: Payroll System Subsystem Design
   - Hệ thống được chia thành 4 hệ thống con chính, mỗi hệ thống con đảm nhiệm các chức năng cụ thể
 ## **1 Distribute Subsystem Behavior to Subsystem Elements**
   ### **_a) Maintain_Timecard Subsystem_**
