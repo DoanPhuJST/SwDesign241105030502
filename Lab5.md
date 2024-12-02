@@ -27,6 +27,32 @@ Họ và tên: Đoàn Phú        -        Mã sinh viên: 4451050696
   - Thành phần chính:
     - SystemClock: Kích hoạt quy trình Run Payroll theo thời gian được xác định trước.
 ## **2 Document Subsystem Elements**
+  ### **_a) Timecard Subsystem_**
+    - Quản lý thông tin giờ làm việc của nhân viên.
+    - Lấy danh sách thẻ chấm công từ cơ sở dữ liệu.
+    - Cập nhật trạng thái và hiển thị thông tin thẻ chấm công.
+  ### b) Payroll Processing Subsystem
+    - Xử lý tính toán lương cho từng nhân viên dựa trên giờ làm việc theo trạng thái của tháng làm việc đó.
+    - Thực hiện thanh toán chuyển khoản thông qua ngân hàng hoặc in phiếu lương nếu nhận tiền mặt.
+    - Lưu thông tin tiền lương vào cơ sở dữ liệu.
+  ### **_c) Employee Management Subsystem_**
+    - Lưu trữ thông tin nhân viên.
+    - Cập nhật trạng thái nhân viên (đang làm việc hoặc bị xóa).
+    - Cung cấp thông tin cho các hệ thống con khác.
+  ### **_d) Scheduler Subsystem_**
+    - Kích hoạt quy trình tính lương tự động vào thời gian xác định sẵn.
+## **3 Describe Subsystem Dependencies**
+  - Timecard Subsystem phụ thuộc vào Employee Management Subsystem để lấy các thông tin nhân viên liên quan đến việc tính toán lương.
+  - Payroll Processing Subsystem phụ thuộc vào:
+    - Employee Management Subsystem để lấy danh sách các nhân viên có trạng thái("đang làm việc).
+    - Timecard Subsystem để lấy thông tin giờ làm việc của từng nhân viên.
+  - Scheduler Subsystem không phụ thuộc vào các hệ thống con nào nhưng kích hoạt quy trình hoạt động Payroll Processing Subsystem.
+## **4 Checkpoint**
+  - Phân chia hợp lý: Các hệ thống đảm nhận mỗi nhiệm vụ khác nhau, với các thành phần được phân chia rõ ràng.
+  - Tính dễ bảo trì: Các hệ thống con dễ bảo trì khi có sự thay đổi và các sự cố bên ngoài.
+  - Phụ thuộc rõ ràng: Các hệ thống con có quan hệ với nhau để cùng thực hiện một nhiệm vụ nào đó.
+  - Tính mở rộng: Các hệ thống con có thể mở rộng hoặc thay đổi mà không ảnh hưởng đến toàn bộ hệ thống.
+  
       
 
 
