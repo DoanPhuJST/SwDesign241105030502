@@ -1,5 +1,22 @@
 Họ và tên: Đoàn Phú   Mã sinh viên: 4451050696
 # **Lab6: THIẾT KẾ LỚP**
+# **HỆ THỐNG PAYROLL SYSTEM**
+
+## I. Ca sử dụng Maintain TimeCard
+### 1. Xác định các operations, methods
+![Diagram](https://www.planttext.com/api/plantuml/png/b98_JiCm5CRtTuet5ebS80EgA69Yed009tcaLXmxyfzM4MBgmCm944882QbYJmO6AkxX4t05d40RgMM0oVRdz_q-loT_jczZOvcshXG0fk0IjJ84OBaLX1F1Z263qVSEJpZBDIi18EtFfqgNPoeFhcj0T8QqP2N5EBMQo_mmQ5KeMoYTRRGWPTnKWjNdP9omeuCOZvKIn2JSRB0zSgAarKe8qXqxdL5QJ5rISZlQozbB-Grw6LmNB14KS3dPxjY5TolWd0cUCKkz-a_-WF_p4CAZXj55KQOMCZhQRJl6tBShZlNxYyFKDyyErtVhfSnHpdopgc2dVW1jMutHQbVZt3TF4jEF1pI-lSVCjwyek6zl7MnBWrlGbVrnnrY4-sKP_0mJtpo6r7vIC2QPXS_o1G00__y30000)
+
+### 2. Xác định các trạng thái
+
+![Diagram](https://www.planttext.com/api/plantuml/png/R8yn2W9134NxVuhKmbvW2raB1Gkh1Hkn66QY3iPPp6HEP-6Hl8BhiB0eDldavVFvUJsUNJQdLcu2v6jCf4DcmA89Ks_Ec7P3OC5XSQIcMT8s2ECpwhPt4eEpcCujATyBPyFCgcMjEcXB9oTZyCzjLUp2oQAV8amBunjMtyP5ASgOT2xonziNxpbdJ5hPM1v0nocCZxu1003__mC0)
+
+
+
+
+
+
+
+
 
 ## **Operations, methods**
 ![Diagram](https://www.planttext.com/api/plantuml/png/X5J1Rjim3BthAmYV720krgin1DsS5IYmOSKwO6T5uXmXiXH8SWfZs9Vji4_QBqoABLiktFgIKCya7yb7wT-VltVMKUFQHX9YJqA1qHO9SS99X4fIQz52qLkm5xGsj264iElvgRCEcqfgTe9V100kMd1mHjGrcc-jUgITqLBc6_8xXanefPKB_sYkeP-5TUy_DMUfEyGTrEZYuLwRc8Yrng1oU-gmXF2x2Q7-ApkYhu5HoLhfOO_aJZHOKSDB-3vOMpYtXXsfnQ-6eoddnotWG5X2fDwiDDNtz6Y4SaCRlVSLyOvLA2i_3_MLOwLJx4UgJlqOat0k33AtnxEsmhqI7ha7A4HptHwyQhJHhNBR2U38M-Q4LZO15OO20wSlTMro2M4SJI0CaGyy97toyr4rADfWmc6ffAPBlXzGuK_XR0BvxhvuIKCXCNKGVu-E2XcHVA40BpyzUF5MjYUVDBJqWd5URqyrzZrlCbX7tHhxGviJyf0tEWR6QFUbvzCs-RXKiNJfvWJ3s9Xk6c6j5-p3LShhZgTHWMq6z9HsWJEzeaN1zRCgTekNa2o1aDrcnIvxTtDpcus3VylJkqqRlUmuLZ5ScvLqB-LUIHf5U3rhdpQAJaO5-owBuaMt9JnxjU7GaV6PoHRSe0H_Pr5Sq98HAugvRYLu4tGmhNz4xr1n__3-1m00__y30000)
