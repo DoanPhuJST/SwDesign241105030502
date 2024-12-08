@@ -23,7 +23,7 @@ Họ và tên: Đoàn Phú   Mã sinh viên: 4451050696
 
 ### 2. Xác định các trạng thái
 
-![Diagram]()
+![Diagram](https://www.planttext.com/api/plantuml/png/T99HQiCm38RVTGfTe1S88tJDzb3OQ5bx0TKLgQbh1zaTXD2JxM57sXKcZwHBA7c98_to9_t2Fr_VovX8qlNY0EBPUfGG6S0uYX5tRKnygLmmvmuGQqxLLOHzUg741UOlt016PRXObBYbLe9pLV0fdom59h5rpJA07oeolg7sGuCH6_7DPdJZGikQpD7JQn-MAkVk3wpn38gX0wcZsIfpOdEUaLVavwIza8zaaWr-fc8O6s1mdN7PQFg_Mqn0YC-VP1qTd9fTXU2OVEzoihV1LGT34tnOJh8NDYJ7NjXhM6bOGdCLSzBB6pcon5xUJf8bm0r7FVzsb2UtYblxf7-Uame5lWVFxMJ6aQ7kdXpcx62jY9q-1rz394ToPsWjBDaVzId-0W00__y30000)
 
 ### 3. Thuộc tính
 ![Diagram]()
